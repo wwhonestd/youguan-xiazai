@@ -1,6 +1,6 @@
 # YouGuan XiaZai
 
-A Tkinter-based graphical downloader around the bundled `yt-dlp` binary for macOS. Paste a video or playlist URL, choose cookies (browser or file), pick download mode/quality, fetch playlists, batch subtitle downloads, and convert subtitles to plain text. Built from https://github.com/wwhonest/yt-dlp customizations.
+A Tkinter-based graphical downloader around the yt-dlp binary for macOS. The repository ships the GUI code; download the `yt-dlp_macos` executable separately (see below). Paste a video or playlist URL, choose cookies (browser or file), pick download mode/quality, fetch playlists, batch subtitle downloads, and convert subtitles to plain text. Built from https://github.com/wwhonest/yt-dlp customizations.
 
 ## Features
 - Video/audio/subtitle download modes with quality selector.
@@ -26,7 +26,7 @@ Use the `Convert Subtitles…` button to select downloaded `.srt`, `.vtt`, `.ass
 
 ## Repository Layout
 - `gui_downloader.py` — Tkinter GUI source.
-- `yt-dlp_macos` — bundled yt-dlp universal binary.
+- `yt-dlp_macos` — place the downloaded yt-dlp universal binary here (ignored by Git).
 - `YouTubeDownloader.spec` — PyInstaller specification.
 - `README.md` — project documentation.
 
