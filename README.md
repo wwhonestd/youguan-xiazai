@@ -13,7 +13,7 @@ A Tkinter-based graphical downloader around the bundled `yt-dlp` binary for macO
 ```
 python3 gui_downloader.py
 ```
-Ensure the `yt-dlp_macos` binary in this directory is executable (`chmod +x yt-dlp_macos` if needed).
+Download `yt-dlp_macos` from https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_macos and place it next to `gui_downloader.py`, then mark it executable with `chmod +x yt-dlp_macos`.
 
 ## Building the macOS App Bundle
 ```
